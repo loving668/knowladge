@@ -1,0 +1,51 @@
+# ===== 环境变量 / 密钥 =====
+.env
+*.env
+!.env.example
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+*.egg
+.venv/
+venv/
+*.db
+
+# ===== Node.js =====
+node_modules/
+frontend/dist/
+*.log
+
+# ===== IDE =====
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+
+# ===== 上传临时文件 =====
+.uploads/
+
+# ===== 知识库原始数据（含 API Key 痕迹的可能文件） =====
+backend/knowledge_bases/*/raw_sources/
+backend/wiki/
+backend/data/
+
+# ===== 后端输出日志 =====
+backend_err.txt
+backend_out.txt
+
+# ===== 临时测试文件 =====
+test_py.txt
+query
+
+# ===== Superpowers 内部工具状态 =====
+.superpowers/
+.vite/
